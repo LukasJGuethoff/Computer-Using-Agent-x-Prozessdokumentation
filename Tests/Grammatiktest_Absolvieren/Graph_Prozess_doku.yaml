@@ -1,0 +1,25 @@
+steps:
+  - id: 1
+    description: Öffne die Website des Cambridge Dictionary und dort auf +Plus
+    next: 2
+
+  - id: 2
+    description: Klicke auf Grammer Test.
+    next: 3
+  
+  - id: 3
+    description: Unter dem Reiter Adjektive befindet sich der Test, evtl. muss nach unten gescrollt werden.
+    next: 4
+
+  - id: 4
+    description: Absolviere nun den Test. Löse jede Aufgabe einzeln und gehe danach zur nächste. Mache dies solange bis du alle 12 Aufgaben bearbeitet hast und du dir das Ergebnis anzeigen lassen kannst. Zwischendurch muss nach unten gescrollt werden.
+    next: 5
+
+  - id: 5
+    description: Gebe das Ergebnis abschließend aus.
+    next: 6
+
+  - id: 6
+    description: Ende
+    next: null
+

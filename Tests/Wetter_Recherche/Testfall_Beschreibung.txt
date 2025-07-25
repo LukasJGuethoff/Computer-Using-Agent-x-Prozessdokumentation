@@ -1,0 +1,3 @@
+Testfall: Es soll zu einer Wetter Website navigiert werden. Auf der Website soll das gesucht Wetter herausgefunden werden.
+
+Erfolgskriterium: Ausgabe des Wetters für morgen Nachmittag in Berlin.

@@ -1,0 +1,3 @@
+Testfall: Es soll zum Test (https://dictionary.cambridge.org/plus/quiz/grammar/adjectives-1) navigiert werden und dieser ausgefüllt werden.
+
+Erfolgskriterium: Abschluss des Tests mit Ausgabe des Ergebnisses. 12/12 wird nicht erwartet.

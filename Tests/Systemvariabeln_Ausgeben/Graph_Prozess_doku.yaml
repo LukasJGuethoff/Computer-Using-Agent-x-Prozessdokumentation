@@ -1,0 +1,9 @@
+steps:
+  - id: 1
+    description: Klicke auf die Windows-Suche und gebe 'Umgebung' ein. Klicke anschließend auf den richtigen Dialog in den Ergebnissen.
+    next: 2
+
+  - id: 2
+    description: Die Umgebungsvariabeln Übersicht hat sich geöffnet, erfülle deine Aufgabe.
+    next: null
+

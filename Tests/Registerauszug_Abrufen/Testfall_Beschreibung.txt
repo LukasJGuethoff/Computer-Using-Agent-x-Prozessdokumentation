@@ -1,0 +1,3 @@
+Testfall: Über das Portal des Handelsregisters soll der aktuelle Ausdruck der gesuchten jur. Person heruntergeladen werden
+
+Erfolgskriterium: Herunterladen des aktuellen Ausdrucks.

@@ -1,0 +1,3 @@
+Testfall: Es sollen die Produktabmessungen eine Produktes recherchiert werden.
+
+Erfolgskriterium: Ausgabe der Verpackungs- oder Produktmaße. Dafür muss nicht zwingend die Website von Amazon verwendet worden sein.

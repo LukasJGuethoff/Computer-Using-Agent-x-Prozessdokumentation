@@ -1,0 +1,1 @@
+Öffne die Website von wetter.de. Klicke in die Suchleiste und suche nach dem angegebenen Ort. Scrolle nach unten und klicke auf den richtigen Tag. Betrachte das Wetter zum angegeben Zeitpunkt. Evtl. musst du wieder nach unten Scrollen. Gebe aus, wie das Wetter sein wird.

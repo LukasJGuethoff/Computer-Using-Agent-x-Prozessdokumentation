@@ -1,0 +1,1 @@
+Öffne den Datei-Explorer. Über die Seitenleiste kannst du auf den Ordner Dokumente klicken. Erstelle dort nun die gewünschte Datei und gebe ihr den richtigen Namen. Öffne sie, schreibe den richtigen Inhalt und speichere.

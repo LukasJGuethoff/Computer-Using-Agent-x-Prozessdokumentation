@@ -1,0 +1,13 @@
+steps:
+  - id: 1
+    description: Öffne die Website von wetter.de. Klicke in die Suchleiste und suche nach dem angegebenen Ort.
+    next: 2
+
+  - id: 2
+    description: Scrolle nach unten und klicke auf den richtigen Tag. Betrachte das Wetter zum angegeben Zeitpunkt. Evtl. musst du wieder nach unten Scrollen.
+    next: 3
+  
+  - id: 3
+    description: Gebe aus, wie das Wetter sein wird.
+    next: null
+

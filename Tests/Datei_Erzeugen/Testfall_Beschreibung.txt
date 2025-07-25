@@ -1,0 +1,3 @@
+Testfall: Gemäß der Nutzeraufforderung soll die .txt Datei erstellt werden.
+
+Erfolgskriterium: Erstellung einer .txt Datei im Ordner Dokumente mit dem vorgegeben Text. Einfügen des Textes genügt.

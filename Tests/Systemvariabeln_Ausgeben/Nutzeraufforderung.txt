@@ -1,0 +1,1 @@
+Gebe den Namen der ersten Benutzervariabel aus. Hierbei handelt es sich um die Benutzervariabeln in Windows selbst.

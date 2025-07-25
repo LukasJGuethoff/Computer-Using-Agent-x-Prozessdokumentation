@@ -1,0 +1,13 @@
+steps:
+  - id: 1
+    description: Öffne den Datei-Explorer. Über die Seitenleiste kannst du auf den Ordner Dokumente klicken.
+    next: 2
+
+  - id: 2
+    description: Erstelle dort nun die gewünschte Datei und gebe ihr den richtigen Namen.
+    next: 3
+  
+  - id: 3
+    description: Öffne sie, schreibe den richtigen Inhalt und speichere.
+    next: null
+

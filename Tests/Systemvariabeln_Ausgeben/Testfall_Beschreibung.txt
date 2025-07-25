@@ -1,0 +1,3 @@
+Testfall: Es soll sich zum Fenster für Systemvariabeln navigiert werden und der Name der ersten Benutzervariabel ausgeben werden.
+
+Erfolgskriterium: Ausgabe der ersten (obersten) Benutzervariabel.

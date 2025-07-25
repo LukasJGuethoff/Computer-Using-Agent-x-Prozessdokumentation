@@ -1,0 +1,3 @@
+Testfall: Es soll über die Website des Bundesanzeigers der neuste Jahresabschluss eingesehen werden. Der Lagebericht ist der erste Abschnitt des Dokuments.
+
+Erfolgskriterium: Öffnen des Jahresabschlusses.

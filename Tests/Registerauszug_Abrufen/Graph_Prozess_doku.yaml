@@ -1,0 +1,12 @@
+steps:
+  - id: 1
+    description: Öffne die Website des Handelsregister. Klicke auf Normale Suche.
+    next: 2
+
+  - id: 2
+    description: Gebe in dem Suchfeld das gewünschte Unternehmen ein. Scrolle nach unten, um auf den Button 'Suchen' zu klicken.
+    next: 3
+  
+  - id: 3
+    description: Scrolle solange nach unten bis du das gesuchte Unternehmen siehst und klicke bei diesem auf AD, um den Registerauszug herunterzuladen. Achte sehr genau das es tatsächlich das gesuchte Unternehmen ist und kein anders.
+    next: null
