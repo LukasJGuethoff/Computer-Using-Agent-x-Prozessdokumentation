@@ -51,4 +51,4 @@ python agent.py -api key.txt -pw pw.txt -p tests/Grammatiktest_Absolvieren/Nutze
 ```
 In der Implementation wird davon ausgegangen, dass ein Browser Fenster bereits geöffnet ist, und die Bildschirmauflösung auf 1280 x 800 eingestellt ist.
 
-API-Fehler wie 'overloaded' o. Ä. werden befusst nicht gecatchet, um den Benutzer davon markant in Kenntnis zu setzen.
+API-Fehler wie 'overloaded' o. Ä. werden bewusst nicht gecatchet, um den Benutzer in Kenntnis zu setzen.
