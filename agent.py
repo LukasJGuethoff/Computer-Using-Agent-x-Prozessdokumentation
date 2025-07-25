@@ -692,12 +692,6 @@ def main():
             FOR (s:Step) REQUIRE s.id IS UNIQUE
         """)
 
-        a,b = get_prev_step(graph, 5)
-
-        print("Prev von 2:", a,b)
-        print("Next von 2:", get_next_step(graph, 9))
-
-
         tools.append(
             {
                 "name": "Prozessdokumentation",
