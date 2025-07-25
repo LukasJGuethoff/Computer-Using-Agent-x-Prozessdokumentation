@@ -1,21 +1,22 @@
 # Computer-Using-Agent-x-Prozessdokumentation
 
-Dies ist eine Implementation eines Computer Using Agents (CUAs) basiert auf der Anthropic API erweitert um Prozessdokumentation. Diese kann in textueller oder graph Form übergeben werden. Im Ordner Tests befinden sich Testfälle. Dieses Repo wurde im Rahmen des Models 'Proseminar' des Informatik Bachelor Studium der Universität Paderborn entwickelt.
+Dies ist die Implementation eines Computer Using Agents (CUAs) basierend auf der Anthropic API erweitert um Prozessdokumentation. Diese kann in textueller oder graph Form übergeben werden. Es soll geprüft werden, ob CUAs mit Prozessdokumentationen eine besserer Performance aufweisen als ohne.
+Im Ordner Tests befinden sich Testfälle. Dieses Repo wurde im Rahmen des Models 'Proseminar' des Informatik Bachelor Studiums der Universität Paderborn entwickelt.
 
 Diese Implementierung ist auf dem Betriebsystem Windows 11 erfolgt.
 
 ## 1. Neo4j installieren
 
+Instelliere die neuste Community-Version
 ```bash
-# Instelliere die neuste Community-Version
 https://neo4j.com/deployment-center/
-
-# Start den Server
-# Lege eine lokale DB an. Speichere das vergebene Passwort in pw.txt.
-# Bolt‑Endpunkt:
-bolt://localhost:7687   # User: neo4j
 ```
-> **Hinweis:** Wenn `--graph-file` verwendet wird, muss Neo4j während des Laufs aktiv sein.
+Starte den Server
+Lege eine lokale DB an. Speichere das vergebene Passwort in pw.txt.
+Bolt‑Endpunkt:
+bolt://localhost:7687   # User: neo4j
+
+> **Hinweis:** Wenn `--graph-file` verwendet wird, muss Neo4j währenddessen aktiv sein.
 
 
 ## 2. requirements.txt installieren
@@ -49,3 +50,5 @@ Beispielhafter Aufruf mit grafischer Prozessdokumentation:
 python agent.py -api key.txt -pw pw.txt -p tests/Grammatiktest_Absolvieren/Nutzeraufforderung.txt -g tests/Grammatiktest_Absolvieren/Graph_Prozess_doku.yaml
 ```
 In der Implementation wird davon ausgegangen, dass ein Browser Fenster bereits geöffnet ist, und die Bildschirmauflösung auf 1280 x 800 eingestellt ist.
+
+API-Fehler wie 'overloaded' o. Ä. werden befusst nicht gecatchet, um den Benutzer davon markant in Kenntnis zu setzen.
